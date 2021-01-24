@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286B626825BD9C9B00B6A684 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B626725BD9C9B00B6A684 /* PersistenceService.swift */; };
+		286B626F25BD9F9100B6A684 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B626E25BD9F9100B6A684 /* DataBaseHelper.swift */; };
+		28B8A69F25BC8D9F003D990E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8A69E25BC8D9F003D990E /* AppDelegate.swift */; };
+		28B8A6A125BC8D9F003D990E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8A6A025BC8D9F003D990E /* SceneDelegate.swift */; };
+		28B8A6A325BC8D9F003D990E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8A6A225BC8D9F003D990E /* ViewController.swift */; };
+		28B8A6A625BC8D9F003D990E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B8A6A425BC8D9F003D990E /* Main.storyboard */; };
+		28B8A6A925BC8D9F003D990E /* Nest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B8A6A725BC8D9F003D990E /* Nest.xcdatamodeld */; };
+		28B8A6AB25BC8DA6003D990E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B8A6AA25BC8DA6003D990E /* Assets.xcassets */; };
+		28B8A6AE25BC8DA6003D990E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B8A6AC25BC8DA6003D990E /* LaunchScreen.storyboard */; };
+		28B8A6B925BC9CC8003D990E /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 28B8A6B825BC9CC8003D990E /* MobileNetV2.mlmodel */; };
+		28FF0ED025BDAA48001F9CD5 /* Challenge_image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF0ECE25BDAA48001F9CD5 /* Challenge_image+CoreDataClass.swift */; };
+		28FF0ED125BDAA48001F9CD5 /* Challenge_image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF0ECF25BDAA48001F9CD5 /* Challenge_image+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		286B626725BD9C9B00B6A684 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		286B626E25BD9F9100B6A684 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		28B8A69B25BC8D9F003D990E /* Nest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B8A69E25BC8D9F003D990E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28B8A6A025BC8D9F003D990E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28B8A6A225BC8D9F003D990E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28B8A6A525BC8D9F003D990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28B8A6A825BC8D9F003D990E /* Nest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nest.xcdatamodel; sourceTree = "<group>"; };
+		28B8A6AA25BC8DA6003D990E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B8A6AD25BC8DA6003D990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B8A6AF25BC8DA6003D990E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B8A6B825BC9CC8003D990E /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		28FF0ECE25BDAA48001F9CD5 /* Challenge_image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Challenge_image+CoreDataClass.swift"; path = "Nest/Challenge_image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		28FF0ECF25BDAA48001F9CD5 /* Challenge_image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Challenge_image+CoreDataProperties.swift"; path = "Nest/Challenge_image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B8A69825BC8D9F003D990E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B8A69225BC8D9F003D990E = {
+			isa = PBXGroup;
+			children = (
+				28FF0ECE25BDAA48001F9CD5 /* Challenge_image+CoreDataClass.swift */,
+				28FF0ECF25BDAA48001F9CD5 /* Challenge_image+CoreDataProperties.swift */,
+				28B8A69D25BC8D9F003D990E /* Nest */,
+				28B8A69C25BC8D9F003D990E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28B8A69C25BC8D9F003D990E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B8A69B25BC8D9F003D990E /* Nest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B8A69D25BC8D9F003D990E /* Nest */ = {
+			isa = PBXGroup;
+			children = (
+				286B626E25BD9F9100B6A684 /* DataBaseHelper.swift */,
+				28B8A69E25BC8D9F003D990E /* AppDelegate.swift */,
+				286B626725BD9C9B00B6A684 /* PersistenceService.swift */,
+				28B8A6A025BC8D9F003D990E /* SceneDelegate.swift */,
+				28B8A6A225BC8D9F003D990E /* ViewController.swift */,
+				28B8A6A425BC8D9F003D990E /* Main.storyboard */,
+				28B8A6AA25BC8DA6003D990E /* Assets.xcassets */,
+				28B8A6AC25BC8DA6003D990E /* LaunchScreen.storyboard */,
+				28B8A6AF25BC8DA6003D990E /* Info.plist */,
+				28B8A6A725BC8D9F003D990E /* Nest.xcdatamodeld */,
+				28B8A6B825BC9CC8003D990E /* MobileNetV2.mlmodel */,
+			);
+			path = Nest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B8A69A25BC8D9F003D990E /* Nest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B8A6B225BC8DA6003D990E /* Build configuration list for PBXNativeTarget "Nest" */;
+			buildPhases = (
+				28B8A69725BC8D9F003D990E /* Sources */,
+				28B8A69825BC8D9F003D990E /* Frameworks */,
+				28B8A69925BC8D9F003D990E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nest;
+			productName = Nest;
+			productReference = 28B8A69B25BC8D9F003D990E /* Nest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B8A69325BC8D9F003D990E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					28B8A69A25BC8D9F003D990E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 28B8A69625BC8D9F003D990E /* Build configuration list for PBXProject "Nest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B8A69225BC8D9F003D990E;
+			productRefGroup = 28B8A69C25BC8D9F003D990E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B8A69A25BC8D9F003D990E /* Nest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B8A69925BC8D9F003D990E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B8A6AE25BC8DA6003D990E /* LaunchScreen.storyboard in Resources */,
+				28B8A6AB25BC8DA6003D990E /* Assets.xcassets in Resources */,
+				28B8A6A625BC8D9F003D990E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B8A69725BC8D9F003D990E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286B626F25BD9F9100B6A684 /* DataBaseHelper.swift in Sources */,
+				28B8A6A325BC8D9F003D990E /* ViewController.swift in Sources */,
+				28FF0ED125BDAA48001F9CD5 /* Challenge_image+CoreDataProperties.swift in Sources */,
+				286B626825BD9C9B00B6A684 /* PersistenceService.swift in Sources */,
+				28B8A69F25BC8D9F003D990E /* AppDelegate.swift in Sources */,
+				28B8A6A125BC8D9F003D990E /* SceneDelegate.swift in Sources */,
+				28B8A6B925BC9CC8003D990E /* MobileNetV2.mlmodel in Sources */,
+				28B8A6A925BC8D9F003D990E /* Nest.xcdatamodeld in Sources */,
+				28FF0ED025BDAA48001F9CD5 /* Challenge_image+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28B8A6A425BC8D9F003D990E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B8A6A525BC8D9F003D990E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28B8A6AC25BC8DA6003D990E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B8A6AD25BC8DA6003D990E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B8A6B025BC8DA6003D990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28B8A6B125BC8DA6003D990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B8A6B325BC8DA6003D990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SY752Q3SQ;
+				INFOPLIST_FILE = Nest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurenderSharma.Nest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B8A6B425BC8DA6003D990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SY752Q3SQ;
+				INFOPLIST_FILE = Nest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurenderSharma.Nest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B8A69625BC8D9F003D990E /* Build configuration list for PBXProject "Nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B8A6B025BC8DA6003D990E /* Debug */,
+				28B8A6B125BC8DA6003D990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B8A6B225BC8DA6003D990E /* Build configuration list for PBXNativeTarget "Nest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B8A6B325BC8DA6003D990E /* Debug */,
+				28B8A6B425BC8DA6003D990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28B8A6A725BC8D9F003D990E /* Nest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28B8A6A825BC8D9F003D990E /* Nest.xcdatamodel */,
+			);
+			currentVersion = 28B8A6A825BC8D9F003D990E /* Nest.xcdatamodel */;
+			path = Nest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28B8A69325BC8D9F003D990E /* Project object */;
+}
